@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    font-family: 'Overpass', sans-serif;
+}
+header{
+    background-image: url(../IMG/фон\ лошади.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+.plato{
+}
+.logo{
+    max-width: 120px;
+    max-height: 120px;
+}
+.a{
+    display: flex;
+}
+.a-nav a{
+    padding-left: 25px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 24px;
+}
+.a-nav a:hover{
+    color: #008B8B;
+    transition-duration: 0.5s;
+}
+.phone{
+    min-height: 16px;
+    min-width: 42px;
+    border-radius: 15px;
+    border: none;
+}
+.phone a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.phone a:hover{
+    color: #008B8B;
+    transition-duration: 0.5s;
+}
+.slang{
+    text-align: right;
+    /* max-width: 840px; */
+    padding-top: 20px;
+    justify-content: flex-end;
+}
+.slang h3{
+    font-size: 46px;
+    font-weight: 500;
+}
+.slang-title{
+    font-size: 82px;
+    font-weight: 600;
+}
+.nav-page{
+    display: flex;
+    flex-direction: column;
+    max-width: 220px;
+}
+.nav-button{
+    min-height: 40px;
+    border: none;
+    margin-bottom: 45px;
+    background-color: #008B8B;
+    border-radius: 15px;
+}
+.a-button{
+    text-decoration: none;
+    color: white;
+}
+.nav-button:hover{
+    background-color: #015252;
+    transition-duration: 0.5s;
+}
+.a-button:hover{
+    color: white;
+}
+.order-img{
+    max-width: 280px;
+    max-height: 200px;
+    background-repeat: no-repeat;
+    min-height: 200px;
+    min-width: 280px;
+    border-radius: 5px;
+}
+.h2-order{
+    padding-top: 30px;
+    text-align: center;
+    padding-bottom: 25px;
+}
+.services-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.box-services{
+    max-width: 280px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.box-services h3{
+    font-size: 24px;
+    padding-top: 18px;
+}
+.box-services button{
+    min-width: 240px;
+    min-height: 40px;
+    border: none;
+    background-color: #015252;
+    margin-top: 18px;
+    border-radius: 5px;
+}
+.box-services button span{
+    color: white;
+    font-size: 18px;
+}
+.box-services button:hover{
+    background-color: #008B8B;
+    transition-duration: 0.5s;
+}
+.order-img:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+.h2-quentions{
+    font-size: 38px; 
+}
+.h3-order{
+    font-size: 20px;
+}
+.order-section{
+    background-image: url(../IMG/фон3\ криент.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.order-phone{
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+}
+.order-quentions{
+    align-self: flex-start;
+    padding-left: 50px;   
+}
+.order-quentions input{
+    margin-bottom: 25px;
+    min-width: 280px;
+    min-height: 45px;
+    border: none;
+}
+input{
+    padding-left: 5px;
+}
+.input{
+    background-color: #015252;
+    color: white;
+}
+.input:hover{
+    background-color: #fff;
+    color: #015252;
+    transition-duration: 0.5s;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+.footer img{
+    max-width: 16px;
+    max-height: 16px;
+}
+.footer span{
+    font-weight: 600;
+}
+.footer h3{
+    font-size: 24px;
+}
+.footer a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.footer a:hover{
+    color: #015252;
+    border-left: 2px solid #015252;
+    transition-duration: 0.5s;
+    padding-left: 5px;
+}
+.text-footer{
+    text-align: center;
+    font-weight: 500;
+}

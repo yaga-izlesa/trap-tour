@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Overpass', sans-serif;
+}
+header{
+    background-image: url(../IMG/фон\ плато\ асы.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+.logo{
+    max-width: 120px;
+    max-height: 120px;
+}
+.a{
+    display: flex;
+}
+.a-nav a{
+    padding-left: 25px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 24px;
+}
+.a-nav a:hover{
+    color: #008B8B;
+    transition-duration: 0.5s;
+}
+.phone{
+    min-height: 16px;
+    min-width: 42px;
+    border-radius: 15px;
+    border: none;
+}
+.phone a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+.phone a:hover{
+    color: #008B8B;
+    transition-duration: 0.5s;
+}
+.slang{
+    text-align: right;
+    /* max-width: 840px; */
+    padding-top: 20px;
+    justify-content: flex-end;
+}
+.slang h3{
+    font-size: 46px;
+    font-weight: 500;
+    color: white;
+}
+.slang-title{
+    font-size: 82px;
+    font-weight: 600;
+    color: white;
+}
+.column-contact{
+    display: flex;
+    flex-direction: column;
+}
+.row-contact{
+    display: flex;
+    flex-direction: row;
+    padding-top: 90px;
+    padding-bottom: 70px;
+    margin-left: 290px;
+}
+.row-contact-img{
+    max-width: 300px;
+    max-height: 350px;
+    border-radius: 15px;
+    /* margin-left: 40px; */
+}
+.row-contact-time{
+    font-size: 20px;
+    font-weight: 500;
+    padding-right: 5px;
+    /* padding-left: 20px; */
+}
+.row-contact-adress{
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 5px;
+    /* padding-left: 20px; */
+}
+.row-contact:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+    cursor: default;
+}
+.e-phone{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+.e-phone div{
+    text-align: center;
+}
+.e-phone a{
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+}
+.e-phone a:hover{
+    color: #008B8B;
+    transition-duration: 0.5s;
+}
+.gmail-phone-div:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+.map{
+    display: flex;
+    justify-content: center;
+}
+.maps{
+    border-radius: 15px;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+.footer img{
+    max-width: 16px;
+    max-height: 16px;
+}
+.footer span{
+    font-weight: 600;
+}
+.footer h3{
+    font-size: 24px;
+}
+.footer a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.footer a:hover{
+    color: #015252;
+    border-left: 2px solid #015252;
+    transition-duration: 0.5s;
+    padding-left: 5px;
+}
+.text-footer{
+    text-align: center;
+    font-weight: 500;
+}

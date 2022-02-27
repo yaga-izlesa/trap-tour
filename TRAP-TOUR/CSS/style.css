@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Overpass', sans-serif;
+}
+header{
+    background-image: url(../IMG/ajy4.jpg);
+    background-position: center;
+    background-size: cover;
+   
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+.logo{
+    max-width: 120px;
+    max-height: 120px;
+}
+.a{
+    display: flex;
+}
+.a-nav a{
+    padding-left: 25px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 24px;
+}
+.a-nav a:hover{
+    color: #008B8B;
+    transition-duration: 0.5s;
+}
+.phone{
+    min-height: 16px;
+    min-width: 42px;
+    border-radius: 15px;
+    border: none;
+    margin-left: 15px;
+}
+.phone a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.phone a:hover{
+    color: #008B8B;
+    transition-duration: 0.5s;
+}
+.slang{
+    text-align: right;
+    /* max-width: 840px; */
+    padding-top: 20px;
+    justify-content: flex-end;
+}
+.slang h3{
+    font-size: 46px;
+    font-weight: 500;
+    color: white;
+}
+.slang-title{
+    font-size: 82px;
+    font-weight: 600;
+    color: white;
+}
+.nav-page{
+    display: flex;
+    flex-direction: column;
+    max-width: 220px;
+}
+.nav-button{
+    min-height: 40px;
+    border: none;
+    margin-bottom: 45px;
+    background-color: #008B8B;
+    border-radius: 15px;
+}
+.a-button{
+    text-decoration: none;
+    color: white;
+}
+.nav-button:hover{
+    background-color: #015252;
+    transition-duration: 0.5s;
+}
+.a-button:hover{
+    color: white;
+}
+.h2-about{
+    font-size: 38px;
+}
+.div-about{
+    text-align: center;
+    padding-top: 50px;
+}
+.achiev{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+.column-ahiev{
+    max-width: 350px;
+    max-height: 380px;
+    padding-top: 15px;
+}
+.column-ahiev:hover{
+    border: black solid 3px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.img-achiev{
+    max-width: 48px;
+    max-height: 48px;
+}
+.h2-order{
+    font-size: 38px; 
+}
+input{
+    padding-left: 5px;
+}
+.order{
+    text-align: left;
+    padding-top: 50px;
+}
+.form{
+    border: 1px solid aquamarine;
+    min-width: 480px;
+    min-height: 50px;
+    margin-bottom: 15px;
+}
+.order-button{
+    border: 1px solid aquamarine;
+    min-width: 480px;
+    min-height: 50px; 
+    margin-bottom: 15px;
+    background-color: rgba(161,245,217,0   .747);
+}
+.s-order{
+    background-image: url(../IMG/фон2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  
+}
+.order-button:hover{
+    background-color: white;
+    transition-duration: 1s;
+}
+.order-button span:hover{
+    color: aquamarine;
+    transition-duration: 0.5s;
+}
+.div-comments{
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
+.h2-comments{
+    font-size: 38px;
+    padding-bottom: 20px;
+}
+.comment{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+.whiteback{
+    background-color: #027a7a;
+    max-width: 220px;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+}
+.p-name{
+    font-weight: 600;
+}
+.p-vk{
+    text-transform: uppercase;
+}
+.whiteback:hover{
+    background-color: white;
+    color: #027a7a;
+    transition-duration: 0.5s;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+}
+.footer img{
+    max-width: 16px;
+    max-height: 16px;
+}
+.footer 
+    font-weight: 600;
+}
+.footer h3{
+    font-size: 24px;
+    padding-top: 20px;
+}
+.footer a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.footer a:hover{
+    color: #015252;
+    border-left: 2px solid #015252;
+    transition-duration: 0.5s;
+    padding-left: 5px;
+}
+.text-footer{
+    text-align: center;
+    font-weight: 500;
+}
